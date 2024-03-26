@@ -12,7 +12,7 @@ For i = 2 To Ticker_counts
 Cells(i, 10).Value = CalculateYearlyChange(Cells(i, 9).Value)
 Cells(i, 11).Value = CalculatePercentageChange(Cells(i, 9).Value)
 Cells(i, 11).NumberFormat = "0.00%"
-'Cells(i, 12).Value = CalculateTotalStock(Cells(i, 9).Value)
+Cells(i, 12).Value = CalculateTotalStock(Cells(i, 9).Value)
 Next i
 
 ApplyConditionalFormatting
